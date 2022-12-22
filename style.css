@@ -1,0 +1,62 @@
+body{
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    background-position: 69%;
+}
+.appImage{
+    display: block;
+    margin: 15% auto auto auto;
+    width: 100%;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+li{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: x-large;
+}
+header{
+    background-color: rgb(9, 218, 255);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+    padding: 0.5rem;
+}
+nav li:hover{
+    color: #9E35B5;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+.imageContainer{
+    margin: 15% auto auto auto;
+    width: 15%;
+}
+.buttContainer{
+    text-align: center;
+}
+.buttonJoin{
+    font-size: x-large;
+    padding: 10px 25px;
+    border-radius: 17px;
+    border: 0.2rem solid rgb(9, 218, 255);
+    cursor: crosshair;
+    background: #ffffff;
+    color: rgb(9, 218, 255);
+    transition: 0.8s;
+}
+.buttonJoin:hover{
+    color: #9E35B5;
+}
